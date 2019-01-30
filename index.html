@@ -6,10 +6,20 @@
     <link rel = "stylesheet" href="style.css">
     <title>Miléna Gaigne</title>
   </head>
-  <!-- ---------------------------------------------------------------------------------------------- -->
+  <!-- ------------------------SIDE NAVIGATION--------------------------- -->
   <body>
+    <div class="sidenav">
+      <ul>
+        <li><a href="#Profile"><i class="far fa-user"></i></a></li>
+        <li><a href="#Trips"><i class="fas fa-globe-africa"></i></a></li>
+        <li><a href="#A-propos"><i class="fas fa-cog"></i></a></li>
+    </ul>
+    </div>
+
+  <!-- ------------------------PAGE CONTENT--------------------------- -->
+
     <div class="container">
-      <div class="card text-center">
+      <div class="card text-center" id="Profile">
         <img src="images/photo_profil.jpg" alt="Photo de profil de milena" id="profile_picture">
         <h1>Miléna Gaigne</h1>
         <h2>Student, Traveler and Futur Programmer</h2>
@@ -22,7 +32,7 @@
         <a href="https://www.linkedin.com/in/milena-gaigne-177b07a7/" target="blank_"><i class="fab fa-linkedin"></i></a>
         <a href="https://www.instagram.com/milena.gaigne" target="blank_"><i class="fab fa-instagram"></i></a>
       </div>
-      <div class="card text-center">
+      <div class="card text-center" id="Trips">
         <h3> Favorite last trip </h3>
         <table>
           <tbody>
@@ -46,7 +56,7 @@
         </table>
       </div>
 
-      <div class="footer text-center">
+      <div class="footer text-center" id="A-propos">
         <h3> About this page </h3>
         <p>This page has been coded during the FullStack program @LeWagon. That was probably the best experience of my entire life.
         </p>
