@@ -1,0 +1,77 @@
+.container {
+  width: 75%;
+  margin: auto;
+}
+
+
+.img_trip {
+  width: 300px;
+  border-radius: 3px;
+}
+
+#profile_picture {
+  width: 180px;
+  border-radius: 50%;
+  border: 2px solid rgb(219, 219, 219);
+}
+
+.card {
+  background-color: rgb(252, 252, 252);
+  padding: 20px;
+  margin-bottom: 15px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.footer {
+  background-color: rgb(252, 252, 252);
+  font-size: 20px;
+  padding: 20px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+h1 {
+  font-family: 'Karla', sans-serif;
+  font-size: 35px;
+  color: rgb(61, 58, 58);
+  letter-spacing: 8px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  color: rgb(86, 82, 82);
+}
+
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: rgb(86, 82, 82);
+
+}
+
+p {
+  font-family: 'Hind', sans-serif;
+  font-size: 15px;
+  color: rgb(94, 88, 88);
+}
+
+a {
+  font-size: 40px;
+  color: rgb(63, 176, 192);
+  letter-spacing: 15px;
+}
+
+
+a:hover {
+  color: rgb(63, 176, 192, 0.5);
+}
+
+body {
+  background-color: rgb(234, 234, 234);
+}
+
+.text-center {
+  text-align: center;
+}
